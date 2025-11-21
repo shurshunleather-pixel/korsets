@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shurshun Atelier — Корсеты Александра Шуршуна</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">Shurshun Atelier</div>
+    <nav class="nav" aria-label="Главная навигация">
+      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-list">Меню</button>
+      <ul id="nav-list" class="nav__list">
+        <li><a href="#collection">Коллекция</a></li>
+        <li><a href="#story">О дизайнере</a></li>
+        <li><a href="#craft">Детали</a></li>
+        <li><a href="#lookbook">Lookbook</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__content">
+        <p class="eyebrow">Александр Шуршун · Корсеты ручной работы</p>
+        <h1 id="hero-title">Силуэт будущего в металлизированных корсетах</h1>
+        <p class="lead">Эксклюзивные корсеты с острыми линиями и архитектурным объёмом — для тех, кто чувствует себя кинематографично в каждый момент.</p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="#collection">Смотреть коллекцию</a>
+          <a class="button button--ghost" href="#contact">Записаться на примерку</a>
+        </div>
+        <div class="badge-line">
+          <span class="badge">Индивидуальные мерки</span>
+          <span class="dot"></span>
+          <span class="badge">Плотные металлизированные ткани</span>
+          <span class="dot"></span>
+          <span class="badge">Ручная посадка по силуэту</span>
+        </div>
+      </div>
+      <div class="hero__visual" role="presentation">
+        <div class="visual-card visual-card--copper">
+          <span>Metallic Vision</span>
+        </div>
+        <div class="visual-card visual-card--graphite">
+          <span>Graphite Shadow</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="pillars" aria-labelledby="pillars-title">
+      <div class="section__header">
+        <p class="eyebrow">Основа</p>
+        <h2 id="pillars-title">Футуристичный минимализм и уверенная посадка</h2>
+        <p class="lede-small">Структурные панели, молнии по центру и выразительные крылья на талии — каждая деталь подчёркивает скульптурный силуэт.</p>
+      </div>
+      <div class="pillars__grid">
+        <article class="pillar">
+          <h3>Чистые линии</h3>
+          <p>Геометрические выточки и вертикальные молнии создают архитектурный ритм, приближая корсет к объекту дизайна.</p>
+        </article>
+        <article class="pillar">
+          <h3>Материалы со стальным отблеском</h3>
+          <p>Плотные ткани с металлизированным эффектом отражают свет и подчёркивают рельеф, оставаясь гибкими и комфортными.</p>
+        </article>
+        <article class="pillar">
+          <h3>Ручная подгонка</h3>
+          <p>Корсет строится по меркам, с точными изгибами в области талии и бедра, чтобы держать форму без лишнего давления.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="collection" class="collection" aria-labelledby="collection-title">
+      <div class="section__header">
+        <p class="eyebrow">Коллекция</p>
+        <h2 id="collection-title">Два образа — два настроения</h2>
+        <p class="lede-small">Пара контрастных корсетов для разных сценариев: от подиума до камерных вечеров.</p>
+      </div>
+      <div class="collection__grid">
+        <article class="collection-card">
+          <div class="swatch swatch--copper" aria-hidden="true"></div>
+          <div class="collection-card__body">
+            <h3>Metallic Vision</h3>
+            <p>Тёплый металлический отблеск с фирменными "крыльями" по бокам, подчёркивающими талию и бедро.</p>
+            <ul>
+              <li>Центральная молния с зеркальной полировкой</li>
+              <li>Лазерные строчки вдоль вертикальных швов</li>
+              <li>Усиленная спинка и мягкая внутренняя подкладка</li>
+            </ul>
+            <a class="text-link" href="#contact">Заказать примерку</a>
+          </div>
+        </article>
+        <article class="collection-card">
+          <div class="swatch swatch--graphite" aria-hidden="true"></div>
+          <div class="collection-card__body">
+            <h3>Graphite Shadow</h3>
+            <p>Графитовый матовый блеск с тонким серебряным контуром — строгость формы с футуристичной энергетикой.</p>
+            <ul>
+              <li>Лицевая сторона с бархатистой глубиной цвета</li>
+              <li>Точная посадка по талии благодаря внутренним косточкам</li>
+              <li>Съемные детали на боковых панелях</li>
+            </ul>
+            <a class="text-link" href="#contact">Собрать образ</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="story" class="story" aria-labelledby="story-title">
+      <div class="story__content">
+        <p class="eyebrow">О дизайнере</p>
+        <h2 id="story-title">Александр Шуршун: архитектура силуэта</h2>
+        <p>Каждый корсет — это размышление о том, как мода переходит в скульптуру. Я работаю с металлизированными тканями, чтобы ловить свет, создавать тени и подчёркивать форму тела. Примерки проходят лично, поэтому посадка всегда индивидуальна.</p>
+        <div class="list-inline">
+          <span class="badge">Ручная сборка</span>
+          <span class="badge">Подгонка по меркам</span>
+          <span class="badge">Лимитированные тиражи</span>
+        </div>
+      </div>
+      <div class="story__frame" role="presentation">
+        <div class="frame-layer frame-layer--left"></div>
+        <div class="frame-layer frame-layer--right"></div>
+        <div class="frame-core">Скульптура света</div>
+      </div>
+    </section>
+
+    <section id="craft" class="craft" aria-labelledby="craft-title">
+      <div class="section__header">
+        <p class="eyebrow">Детали</p>
+        <h2 id="craft-title">Технология и посадка</h2>
+        <p class="lede-small">Современные материалы и ювелирная точность обработки.</p>
+      </div>
+      <div class="craft__grid">
+        <article class="tile">
+          <h3>Панели и рёбра</h3>
+          <p>Жёсткие вставки держат линию талии, а мягкие внутренние слои отвечают за комфорт при долгой носке.</p>
+        </article>
+        <article class="tile">
+          <h3>Молния как центр композиции</h3>
+          <p>Центральная молния собирает корсет и становится графическим акцентом, уравновешивая боковые "крылья".</p>
+        </article>
+        <article class="tile">
+          <h3>Свет и тень</h3>
+          <p>Металлизированные поверхности создают динамичные блики, превращая корсет в живой объект на сцене и в кадре.</p>
+        </article>
+        <article class="tile">
+          <h3>Создание под заказ</h3>
+          <p>Снимаю мерки, учитываю цель образа и подбираю цвет металла: от тёплой меди до холодного графита.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="lookbook" class="lookbook" aria-labelledby="lookbook-title">
+      <div class="section__header">
+        <p class="eyebrow">Lookbook</p>
+        <h2 id="lookbook-title">Кадры, которые вдохновляют</h2>
+        <p class="lede-small">Представьте корсет в световых пятнах, на сцене и в городе. Выберите настроение и запросите съёмку в студии.</p>
+      </div>
+      <div class="lookbook__grid">
+        <article class="look look--copper">
+          <div class="look__tag">Runway</div>
+          <h3>Полированный медный блеск</h3>
+          <p>Идеален с монохромным тотал-луком и высокими сапогами.</p>
+        </article>
+        <article class="look look--graphite">
+          <div class="look__tag">Editorial</div>
+          <h3>Графитовые тени</h3>
+          <p>Мягкий контраст с белой сорочкой и драматичным макияжем.</p>
+        </article>
+        <article class="look look--mixed">
+          <div class="look__tag">City Night</div>
+          <h3>Два тона в одном кадре</h3>
+          <p>Сочетайте тёплый и холодный оттенки для динамики движения.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta" aria-labelledby="cta-title">
+      <div>
+        <p class="eyebrow">Индивидуально</p>
+        <h2 id="cta-title">Запишитесь на примерку или закажите консультацию</h2>
+        <p class="lede-small">Расскажите, какой образ нужен: подиум, съёмка или вечернее событие. Подберём оттенок, фактуру и посадку.</p>
+      </div>
+      <div class="cta__actions">
+        <a class="button button--primary" href="#contact">Связаться</a>
+        <a class="button button--ghost" href="#lookbook">Посмотреть вдохновение</a>
+      </div>
+    </section>
+
+    <section id="contact" class="contact" aria-labelledby="contact-title">
+      <div class="section__header">
+        <p class="eyebrow">Контакты</p>
+        <h2 id="contact-title">Напишите для заказа</h2>
+        <p class="lede-small">Сформулируйте задачу — я отвечу в течение дня.</p>
+      </div>
+      <form class="contact__form">
+        <label>
+          Имя
+          <input type="text" name="name" placeholder="Как к вам обращаться" required>
+        </label>
+        <label>
+          Email или телефон
+          <input type="text" name="contact" placeholder="Введите email или номер" required>
+        </label>
+        <label>
+          Цель образа
+          <select name="goal">
+            <option>Runway / Подиум</option>
+            <option>Editorial / Съёмка</option>
+            <option>Вечернее событие</option>
+            <option>Другое</option>
+          </select>
+        </label>
+        <label>
+          Комментарий
+          <textarea name="message" rows="4" placeholder="Цвет, настроение, сроки"></textarea>
+        </label>
+        <button type="submit" class="button button--primary">Отправить</button>
+      </form>
+      <div class="contact__details">
+        <div>
+          <p class="label">Почта</p>
+          <a class="text-link" href="mailto:atelier@shurshun.com">atelier@shurshun.com</a>
+        </div>
+        <div>
+          <p class="label">Соцсети</p>
+          <a class="text-link" href="https://vridej.com" target="_blank" rel="noopener">Instagram</a>
+          <a class="text-link" href="#">Telegram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Shurshun Atelier · Скульптура света и формы</p>
+    <a href="#hero-title" class="text-link">Вернуться наверх</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
